@@ -11,6 +11,7 @@ export const servicesData = [
     id: 1,
     icon: <BiShoppingBag />,
     title: "Landlord-Tenant Legal Services",
+    description: "Legal Support for Unpaid Rent, Eviction, and Property Damage Cases. We offer comprehensive legal representation for both landlords and tenants involved in disputes before the Ontario Landlord & Tenant Board. Whether you're a landlord seeking assistance with unpaid rent, eviction, or property damage issues, or a tenant facing similar challenges, our team is here to provide dedicated legal support."
    }
 ]
 

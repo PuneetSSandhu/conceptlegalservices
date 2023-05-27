@@ -23,7 +23,7 @@ function Main() {
   return (
     <div>
       <Helmet>
-        <title>{headerData.name} - Home</title>
+        <title>{headerData.name} | Home</title>
       </Helmet>
 
       <Navbar />

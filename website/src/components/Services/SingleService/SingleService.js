@@ -6,7 +6,7 @@ import { ThemeContext } from '../../../contexts/ThemeContext';
 import './SingleService.css'
 
 
-function SingleService({id, title, icon}) {
+function SingleService({id, title, icon, description}) {
 
     const { theme } = useContext(ThemeContext);
     return (
@@ -14,7 +14,8 @@ function SingleService({id, title, icon}) {
             <div key={id} className="single-service" style={{backgroundColor:theme.primary400}}>
                 <div className="service-content"  style={{color:theme.tertiary}}>
                     <i className="service-icon">{icon}</i>
-                    <h4  style={{color:theme.tertiary}}>{title}</h4>  
+                    <h4  style={{color:theme.tertiary}}>{title}</h4>
+                    <p  >{description}</p>
                 </div>         
             </div>
         </Fade>
