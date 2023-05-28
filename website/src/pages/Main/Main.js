@@ -25,14 +25,9 @@ function Main() {
       <Helmet>
         <title>{headerData.name} | Home</title>
       </Helmet>
-
       <Navbar />
       <Hero />
-      {/* <Landing /> */}
-
       <Services />
-      {/* <Testimonials /> */}
-      <Contacts />
       <Footer />
     </div>
   );

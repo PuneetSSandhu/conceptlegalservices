@@ -3,11 +3,11 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 
-import "./AboutPage.css";
+import "./ContactPage.css";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { projectsData } from "../../data/projectsData";
 import { headerData } from "../../data/headerData";
-import { Navbar, Landing } from "../../components";
+import { Navbar, Landing, Contacts } from "../../components";
 
 function AboutPage() {
   const [search, setSearch] = useState("");
@@ -72,16 +72,16 @@ function AboutPage() {
   return (
     <div className="projectPage" style={{ backgroundColor: theme.secondary }}>
       <Helmet>
-        <title>{headerData.name} | About</title>
+        <title>{headerData.name} | Contact</title>
       </Helmet>
       <Navbar />
       <div
         className="projectPage-header"
         style={{ backgroundColor: theme.primary }}
       >
-        <h1 style={{ color: theme.secondary }}>About Us</h1>
+        <h1 style={{ color: theme.secondary }}>Contact</h1>
       </div>
-      <Landing />
+      <Contacts />
     </div>
   );
 }
