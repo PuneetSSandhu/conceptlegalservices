@@ -1,6 +1,7 @@
 import React from "react";
 import "./hours.css";
 import { Button } from "@mui/material";
+import { contactData } from "../../data/contactData";
 
 function Hours() {
   return (
@@ -12,11 +13,11 @@ function Hours() {
 
       <h3>To Book an Appointment</h3>
       <div className="appointment-container">
-        <Button variant="contained">
-          <a href="tel:555-555-5555">Call Us</a>
+        <Button variant="contained" className="button">
+          <a href={`tel:${contactData.mobile}`}>Call Us</a>
         </Button>
-        <Button variant="contained">
-          <a href="mailto:example@email.com?subject=Appointment Booking">
+        <Button variant="contained" className="button">
+          <a href={`mailto:${contactData.email}?subject=Appointment Booking`}>
             Email Us
           </a>
         </Button>

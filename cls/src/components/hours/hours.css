@@ -22,9 +22,26 @@
   color: #000000;
   margin: 0 1rem;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .MuiButtonBase-root {
   background-color: var(--secondary) !important;
+}
+
+.button {
+  background-color: var(--secondary) !important;
+  color: #000000 !important;
+  font-size: 0.9rem !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 930px) {
+  .hours-container {
+    flex-wrap: wrap;
+  }
+
+  .appointment-container {
+    width: 80%;
+  }
 }

@@ -23,3 +23,28 @@
   width: calc(100vw);
   background-color: #ecc188;
 }
+
+.contact-link {
+  display: none;
+}
+
+@media (max-width: 930px) {
+  .Navbar {
+    flex-wrap: wrap;
+  }
+
+  .link {
+    display: none;
+  }
+  .contact-link {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+  }
+  .contact-info {
+    width: 100%;
+    padding-top: 1rem;
+    background-color: #ffffff;
+  }
+}
