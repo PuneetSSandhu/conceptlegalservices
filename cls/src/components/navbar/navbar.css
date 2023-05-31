@@ -1,0 +1,25 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: calc(100vw - 2rem);
+  background-color: #ecc188;
+  padding: 1rem;
+}
+
+.nav-link {
+  color: #000000;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: calc(100vw);
+  background-color: #ecc188;
+}
