@@ -24,3 +24,14 @@
   width: 80%;
   text-align: start;
 }
+
+@media (max-width: 930px) {
+  .hero-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-container .hero-text {
+    width: 100%;
+  }
+}
