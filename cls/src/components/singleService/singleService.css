@@ -17,9 +17,10 @@
 }
 
 .single-service-container p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 200;
   padding-bottom: 1rem;
+  max-width: 80%;
 }
 
 .single-service-container h1 {

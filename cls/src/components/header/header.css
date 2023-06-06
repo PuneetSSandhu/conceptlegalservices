@@ -6,7 +6,7 @@
 }
 
 .header-container img {
-  padding-top: 1.5rem;
   max-height: 10vh;
+  padding-bottom: 1rem;
   object-fit: scale-down;
 }

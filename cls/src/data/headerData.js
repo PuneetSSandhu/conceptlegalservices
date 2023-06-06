@@ -1,5 +1,5 @@
 export const headerData = {
-  logoURL: "https://4m4you.com/wp-content/uploads/2020/06/logo-placeholder.png",
+  logoURL: "/images/logo.png",
   navLinks: [
     {
       text: "Home",
