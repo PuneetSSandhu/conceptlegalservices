@@ -1,0 +1,47 @@
+.hours-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw - 2rem);
+  background-color: var(--primary);
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.appointment-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 1rem;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+
+.appointment-container a {
+  color: #000000;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.MuiButtonBase-root {
+  background-color: var(--secondary) !important;
+}
+
+.button {
+  background-color: var(--secondary) !important;
+  color: #000000 !important;
+  font-size: 0.9rem !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 930px) {
+  .hours-container {
+    flex-wrap: wrap;
+  }
+
+  .appointment-container {
+    width: 80%;
+  }
+}
