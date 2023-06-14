@@ -14,6 +14,10 @@
     width: calc(100vw - 2rem);
     margin: 1rem;
   }
+
+  .single-service-container p {
+    font-size: 1rem !important;
+  }
 }
 
 .single-service-container img {
@@ -24,7 +28,7 @@
 }
 
 .single-service-container p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 200;
   padding-bottom: 1rem;
   max-width: 80%;

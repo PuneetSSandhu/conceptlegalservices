@@ -7,7 +7,7 @@ function SingleService(props) {
       <div className="single-service-container">
         <img src={props.imageURL} alt={props.altText} />
         <h1>{props.title}</h1>
-        <p>{props.description}</p>
+        {props.description}
       </div>
     </div>
   );

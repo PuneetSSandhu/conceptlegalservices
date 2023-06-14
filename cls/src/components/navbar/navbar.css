@@ -6,13 +6,15 @@
   width: calc(100vw - 2rem);
   background-color: #ecc188;
   padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .nav-link {
   color: #000000;
   margin: 0 1rem;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .Navbar {
@@ -31,6 +33,10 @@
 @media (max-width: 930px) {
   .Navbar {
     flex-wrap: wrap;
+  }
+
+  .nav-link {
+    font-size: 16px;
   }
 
   .link {

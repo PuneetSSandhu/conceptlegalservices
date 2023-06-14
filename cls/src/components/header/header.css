@@ -6,7 +6,18 @@
 }
 
 .header-container img {
-  max-height: 10vh;
+  max-height: 15vh;
   padding-bottom: 1rem;
   object-fit: scale-down;
+}
+
+@media (max-width: 768px) {
+  .header-container img {
+    max-height: 10vh;
+  }
+
+  .header-container {
+    justify-content: center;
+    align-items: center;
+  }
 }
