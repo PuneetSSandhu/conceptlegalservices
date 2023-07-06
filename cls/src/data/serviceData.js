@@ -50,7 +50,7 @@ export const serviceData = [
     name: "Criminal Defense",
     description: (
       <div>
-        <p style={{ textAlign: "left", padding: "2rem" }}>
+        <p>
           Facing criminal charges? You don't have to face it alone.
           <br />
           <br />

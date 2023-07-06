@@ -31,7 +31,7 @@
   font-size: 1.5rem;
   font-weight: 200;
   padding-bottom: 1rem;
-  max-width: 80%;
+  padding-inline: 2rem;
 }
 
 .single-service-container h1 {
