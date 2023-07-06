@@ -30,7 +30,7 @@ function Footer() {
             </a>
           </div>
           <div className="unit">
-            <p>Fax: </p>
+            <p>E-Fax: </p>
             <a href={`fax:${contactData.fax}`}>
               {formatPhoneNumber(contactData.fax)}
             </a>
