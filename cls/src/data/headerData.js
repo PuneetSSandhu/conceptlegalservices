@@ -2,19 +2,19 @@ export const headerData = {
   logoURL: "/images/logo.png",
   navLinks: [
     {
-      text: "Home",
+      text: "HOME",
       href: "/",
     },
     {
-      text: "About",
+      text: "ABOUT",
       href: "/about",
     },
     {
-      text: "Hours",
+      text: "HOURS",
       href: "/hours",
     },
     {
-      text: "Get a Quote",
+      text: "GET A QUOTE",
       href: "mailto:info@conceptlegalservices.com?subject=Quote Request",
     },
   ],

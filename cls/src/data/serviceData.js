@@ -1,3 +1,4 @@
+let bulletsize = "1.2rem"
 export const serviceData = [
   {
     id: 4,
@@ -74,15 +75,85 @@ export const serviceData = [
           gravity of a criminal charge and emphasize the importance of
           approaching it with the utmost seriousness.
         </p>
-        <h3>Criminal practice areas include:</h3>
-        <ul style={{ textAlign: "left" }}>
-          <li>Theft Under $5000</li>
-          <li>Fraud Under $5000</li>
-          <li>Assault</li>
-          <li>Possession of Controlled Substances</li>
-          <li>Uttering Threats</li>
-          <li>Shoplifting</li>
-          <li>Mischief</li>
+        <h3>Criminal Practice Areas Include:</h3>
+        <ul
+          style={{
+            textAlign: "left",
+            fontFamily: "sans-serif",
+            fontSize: bulletsize,
+            fontWeight: 200,
+          }}
+        >
+          <li
+            style={{
+              textAlign: "left",
+              fontFamily: "sans-serif",
+              fontSize: bulletsize,
+              fontWeight: 200,
+            }}
+          >
+            Theft Under $5000
+          </li>
+          <li
+            style={{
+              textAlign: "left",
+              fontFamily: "sans-serif",
+              fontSize: bulletsize,
+              fontWeight: 200,
+            }}
+          >
+            Fraud Under $5000
+          </li>
+          <li
+            style={{
+              textAlign: "left",
+              fontFamily: "sans-serif",
+              fontSize: bulletsize,
+              fontWeight: 200,
+            }}
+          >
+            Assault
+          </li>
+          <li
+            style={{
+              textAlign: "left",
+              fontFamily: "sans-serif",
+              fontSize: bulletsize,
+              fontWeight: 200,
+            }}
+          >
+            Possession of Controlled Substances
+          </li>
+          <li
+            style={{
+              textAlign: "left",
+              fontFamily: "sans-serif",
+              fontSize: bulletsize,
+              fontWeight: 200,
+            }}
+          >
+            Uttering Threats
+          </li>
+          <li
+            style={{
+              textAlign: "left",
+              fontFamily: "sans-serif",
+              fontSize: bulletsize,
+              fontWeight: 200,
+            }}
+          >
+            Shoplifting
+          </li>
+          <li
+            style={{
+              textAlign: "left",
+              fontFamily: "sans-serif",
+              fontSize: bulletsize,
+              fontWeight: 200,
+            }}
+          >
+            Mischief
+          </li>
         </ul>
       </div>
     ),

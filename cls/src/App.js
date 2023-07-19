@@ -12,7 +12,7 @@ import { Header, Footer } from "./components";
 function App() {
   const myHeader = <Header />;
   const myFooter = <Footer />;
-  return (
+  return ( 
     <div className="App">
       <Router>
         <Routes>
