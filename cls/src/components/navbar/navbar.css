@@ -26,6 +26,12 @@
   padding-inline: 1rem;
 }
 
+.nav-link:hover {
+  background-color: #000000;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
 .contact-info {
   display: flex;
   flex-direction: column;
