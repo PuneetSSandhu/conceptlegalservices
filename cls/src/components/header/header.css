@@ -8,12 +8,77 @@
 .header-container img {
   max-height: 15vh;
   padding-bottom: 1rem;
+  padding-top: 1rem;
   object-fit: scale-down;
 }
 
-@media (max-width: 768px) {
+.logo-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.App-logo {
+  padding-left: 1rem;
+}
+
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  background-color: var(--primary) !important;
+}
+
+@media (max-width: 900px) {
   .header-container img {
     max-height: 10vh;
+  }
+
+  .phone-numbers {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo-contact {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .logo-contact {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .App-logo {
+    padding-left: 0rem;
+  }
+
+  .left-phone {
+    border-right: 1px solid black;
+  }
+
+  .contact-info {
+    justify-content: center;
+    align-items: center !important;
+  }
+
+  .contact-container {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    padding-bottom: 0.5rem;
   }
 
   .header-container {

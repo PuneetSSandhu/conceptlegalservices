@@ -1,4 +1,4 @@
-let bulletsize = "1.2rem"
+let bulletsize = "1.2rem";
 export const serviceData = [
   {
     id: 4,
@@ -11,7 +11,7 @@ export const serviceData = [
         representation to tackle your traffic ticket matters. Let me handle the
         legal complexities while you regain peace of mind on the road.
       </p>
-    ),
+    )
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const serviceData = [
         advice, I am dedicated to helping you navigate the process and resolve
         your matters effectively and efficiently.
       </p>
-    ),
+    )
   },
 
   {
@@ -43,7 +43,7 @@ export const serviceData = [
         the way. Count on my expertise to help you navigate the complexities of
         the process and achieve the best possible outcome for your case.
       </p>
-    ),
+    )
   },
   {
     id: 5,
@@ -75,13 +75,13 @@ export const serviceData = [
           gravity of a criminal charge and emphasize the importance of
           approaching it with the utmost seriousness.
         </p>
-        <h3>Criminal Practice Areas Include:</h3>
+        <h2>Criminal Practice Areas Include:</h2>
         <ul
           style={{
             textAlign: "left",
             fontFamily: "sans-serif",
             fontSize: bulletsize,
-            fontWeight: 200,
+            fontWeight: 200
           }}
         >
           <li
@@ -89,7 +89,7 @@ export const serviceData = [
               textAlign: "left",
               fontFamily: "sans-serif",
               fontSize: bulletsize,
-              fontWeight: 200,
+              fontWeight: 200
             }}
           >
             Theft Under $5000
@@ -99,7 +99,7 @@ export const serviceData = [
               textAlign: "left",
               fontFamily: "sans-serif",
               fontSize: bulletsize,
-              fontWeight: 200,
+              fontWeight: 200
             }}
           >
             Fraud Under $5000
@@ -109,7 +109,7 @@ export const serviceData = [
               textAlign: "left",
               fontFamily: "sans-serif",
               fontSize: bulletsize,
-              fontWeight: 200,
+              fontWeight: 200
             }}
           >
             Assault
@@ -119,7 +119,7 @@ export const serviceData = [
               textAlign: "left",
               fontFamily: "sans-serif",
               fontSize: bulletsize,
-              fontWeight: 200,
+              fontWeight: 200
             }}
           >
             Possession of Controlled Substances
@@ -129,7 +129,7 @@ export const serviceData = [
               textAlign: "left",
               fontFamily: "sans-serif",
               fontSize: bulletsize,
-              fontWeight: 200,
+              fontWeight: 200
             }}
           >
             Uttering Threats
@@ -139,7 +139,7 @@ export const serviceData = [
               textAlign: "left",
               fontFamily: "sans-serif",
               fontSize: bulletsize,
-              fontWeight: 200,
+              fontWeight: 200
             }}
           >
             Shoplifting
@@ -149,14 +149,14 @@ export const serviceData = [
               textAlign: "left",
               fontFamily: "sans-serif",
               fontSize: bulletsize,
-              fontWeight: 200,
+              fontWeight: 200
             }}
           >
             Mischief
           </li>
         </ul>
       </div>
-    ),
+    )
   },
   {
     id: 1,
@@ -170,6 +170,6 @@ export const serviceData = [
         ensure the utmost precision and authenticity. Entrust your important
         documents to me for efficient and reliable notarization.
       </p>
-    ),
-  },
+    )
+  }
 ];

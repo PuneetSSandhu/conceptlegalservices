@@ -30,21 +30,31 @@
   padding: 0;
 }
 
+.contact-data {
+  display: table;
+  list-style: none;
+}
+
 .unit {
   font: 400 0.9rem "Roboto", sans-serif;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: table-row;
+  padding-block: 0.5rem;
 }
 
-.unit a {
+a {
   color: #000000;
   text-decoration: none;
-  padding-left: 1px;
+  display: table-cell;
+  text-align: left;
 }
 
-.unit p {
-  margin: 0.5rem;
+b {
+  display: table-cell;
+  padding-right: 1em;
+}
+
+hr {
+  display: none;
 }
 
 @media (max-width: 950px) {
@@ -56,5 +66,14 @@
 
   .contact-data {
     padding-bottom: 1rem;
+  }
+
+  hr {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top: 1px solid #000000;
   }
 }

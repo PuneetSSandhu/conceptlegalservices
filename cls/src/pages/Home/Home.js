@@ -10,7 +10,7 @@ function Home() {
       title={service.name}
       imageURL={service.imgURL}
       description={service.description}
-      altText={service.name}
+      altText={`${service.name} heading`}
     />
   ));
 

@@ -3,20 +3,20 @@ export const headerData = {
   navLinks: [
     {
       text: "HOME",
-      href: "/",
+      href: "/"
     },
     {
       text: "ABOUT",
-      href: "/about",
+      href: "/about"
     },
     {
       text: "HOURS",
-      href: "/hours",
+      href: "/hours"
     },
     {
       text: "GET A QUOTE",
-      href: "mailto:info@conceptlegalservices.com?subject=Quote Request",
-    },
+      href: "mailto:info@conceptlegalservices.com?subject=Quote Request"
+    }
   ],
-  altText: "Google Logo",
+  altText: "Concept Legal Services Logo"
 };
