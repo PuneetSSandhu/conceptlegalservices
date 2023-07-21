@@ -57,7 +57,7 @@
 
 @media (max-width: 900px) {
   .header-container img {
-    max-height: 10vh;
+    /* max-height: 10vh; */
   }
 
   /* .link {
@@ -97,6 +97,7 @@
 
   .App-logo {
     padding-left: 0rem;
+    width: 100vw;
   }
 
   .left-phone {
