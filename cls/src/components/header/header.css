@@ -33,10 +33,46 @@
   background-color: var(--primary) !important;
 }
 
+.link {
+  display: table-row;
+}
+
+.link b {
+  display: table-cell;
+}
+
+.link p {
+  display: table-cell;
+}
+.contact-info {
+  list-style: none;
+  display: table;
+  font-family: garamond;
+}
+
+.phone-numbers {
+  list-style: none;
+  display: table;
+}
+
 @media (max-width: 900px) {
   .header-container img {
     max-height: 10vh;
   }
+
+  /* .link {
+    display: flex;
+    align-self: center;
+  }
+
+  .link b {
+    display: block;
+  }
+
+  .contact-info {
+    display: flex;
+    font-family: garamond;
+  } */
 
   .phone-numbers {
     display: flex;
